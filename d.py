@@ -1,6 +1,10 @@
-alist = ["이순신", 25,"abc", 3,5]
-for a in alist:
-    print(a)
+breads = ["호밀빵","위트", "화이트"]
+meats =["미트볼","소시지","닭가슴살"]
+vegis =["양상추","토마토","오이"]
+sauces =["마요내즈","허니 머스타드","칠리"]
 
-
-print(alist[1:3])
+for bread in breads:
+    for meat in meats:
+        for vegi in vegis:
+            for sauce in sauces:
+                print(bread,"+",meat,"+",vegi,"+",sauce) 
